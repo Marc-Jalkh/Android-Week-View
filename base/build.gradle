@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-//    id 'maven-publish'
+    id 'maven-publish'
 }
 
 ext {
@@ -9,9 +9,6 @@ ext {
 }
 
 apply from: "${rootProject.projectDir}/scripts/publish-mavencentral.gradle"
-//
-//group = 'com.github.thellmund.Android-Week-View'
-//version = '5.3.0'
 
 android {
     compileSdkVersion buildConfig.compileSdk
