@@ -11,7 +11,7 @@ apply from: "${rootProject.projectDir}/scripts/publish-mavencentral.gradle"
 
 
 android {
-    compileSdkVersion buildConfig.compileSdk
+    compileSdkVersion = buildConfig.compileSdk
     defaultConfig {
         minSdkVersion buildConfig.minSdkJsr310
         targetSdkVersion buildConfig.targetSdk
