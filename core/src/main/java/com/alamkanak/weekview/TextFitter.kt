@@ -11,7 +11,7 @@ internal class TextFitter(
 
     fun fitAllDayEvent(eventChip: EventChip): StaticLayout {
         return eventChip.fitText(
-            availableWidth = (eventChip.bounds.right - (eventChip.bounds.left + viewState.singleDayHorizontalPadding)).toInt(),
+            availableWidth = (eventChip.bounds.right - (eventChip.bounds.left + (2*viewState.singleDayHorizontalPadding))).toInt(),
             availableHeight = (eventChip.bounds.bottom - eventChip.bounds.top).toInt()
         )
     }
