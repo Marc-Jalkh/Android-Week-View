@@ -67,9 +67,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:github.com/Marc-Jalkh/Android-Week-View.git'
-                    developerConnection = 'scm:git:ssh://github.com/Marc-Jalkh/Android-Week-View.git'
-                    url = 'https://github.com/Marc-Jalkh/Android-Week-View/tree/feature/all-day-ui-fixes'
+                    connection = 'scm:git:github.com/thellmund/Android-Week-View.git'
+                    developerConnection = 'scm:git:ssh://github.com/thellmund/Android-Week-View.git'
+                    url = 'https://github.com/thellmund/Android-Week-View/tree/main'
                 }
                 withXml {
                     def dependenciesNode = asNode().appendNode('dependencies')
